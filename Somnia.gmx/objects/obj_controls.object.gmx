@@ -1029,7 +1029,7 @@ else
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if sprite_index == 8
+            <string>if sprite_index == 4
 {
     hp -= 30;
     if place_meeting(x+100, y, obj_block)
