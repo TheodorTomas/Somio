@@ -11,6 +11,8 @@
   <colour>12632256</colour>
   <showcolour>-1</showcolour>
   <code>globalvar gravity_check;
+globalvar level_finished;
+level_finished = 0;
 gravity_check = 1;
 keyboard_clear(ord("S"));
 keyboard_set_map(ord("S"),"");

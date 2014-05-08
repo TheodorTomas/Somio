@@ -993,8 +993,7 @@ else
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>show_message(sprite_index);
-if sprite_index == 4
+            <string>if sprite_index == 9 or sprite_index == 12
 {
     hp -= 30;
     if place_meeting(x+100, y, obj_block)
@@ -1283,16 +1282,22 @@ else
             <kind>1</kind>
             <string>if gravity_check = 1
 {
-    if !place_free(x,y+1)
+    if vspeed = 0
     {
-        vspeed = -8;
+        if !place_free(x,y+1)
+        {
+            vspeed = -8;
+        }
     }
 }
 else
 {
-    if !place_free(x,y-1)
+    if vspeed = 0
     {
-        vspeed = 8;
+        if !place_free(x,y-1)
+        {
+            vspeed = 8;
+        }
     }
 }
 </string>
@@ -1404,7 +1409,21 @@ else
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>vspeed = 0;
+            <string>if gravity_check = 1
+{
+    if vspeed &lt; 0
+    {
+        vspeed = 0;   
+    }
+}
+else
+{
+    if vspeed &gt; 0
+    {
+        vspeed = 0;   
+    }
+}
+
 </string>
           </argument>
         </arguments>

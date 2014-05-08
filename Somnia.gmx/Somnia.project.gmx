@@ -28,6 +28,7 @@
       <sprite>sprites\spr_leftstop</sprite>
       <sprite>sprites\spr_rightstop</sprite>
       <sprite>sprites\spr_jumpright</sprite>
+      <sprite>sprites\spr_jumpleft</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">

@@ -53,7 +53,7 @@ hp = 100;</code>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="640" hview="480" xport="0" yport="0" wport="640" hport="480" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="obj_intro" x="256" y="320" name="inst_C0BFB9AF" locked="0" code="" scaleX="0.901408433914185" scaleY="0.666666686534882" colour="4294967295" rotation="0"/>
+    <instance objName="obj_intro" x="256" y="352" name="inst_C0BFB9AF" locked="0" code="" scaleX="0.899999976158142" scaleY="0.670000016689301" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
