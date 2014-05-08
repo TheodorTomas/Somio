@@ -444,11 +444,11 @@ else
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>+4</string>
+            <string>3.2</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>+0</string>
+            <string>0</string>
           </argument>
         </arguments>
       </action>
@@ -549,42 +549,6 @@ else
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
-      </action>
-    </event>
-    <event eventtype="5" enumb="38">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>if gravity_check = 1
-{
-    if !place_free(x,y+1)
-    {
-        vspeed = -8;
-    }
-}
-else
-{
-    if !place_free(x,y-1)
-    {
-        vspeed = 8;
-    }
-}
-</string>
-          </argument>
-        </arguments>
       </action>
     </event>
     <event eventtype="5" enumb="37">
@@ -722,11 +686,11 @@ else
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>-4</string>
+            <string>-3.2</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>+0</string>
+            <string>0</string>
           </argument>
         </arguments>
       </action>
@@ -1029,7 +993,8 @@ else
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if sprite_index == 4
+            <string>show_message(sprite_index);
+if sprite_index == 4
 {
     hp -= 30;
     if place_meeting(x+100, y, obj_block)

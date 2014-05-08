@@ -50,7 +50,7 @@ draw_set_color(c_white);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>alpha += 0.05;
+            <string>alpha += 0.2;
 if alpha &gt;= 1
 {
     room_goto_next();
