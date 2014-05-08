@@ -71,7 +71,7 @@ audio_play_music(snd_levelLoop, true);</code>
     <instance objName="obj_block" x="320" y="368" name="inst_67AFC1AB" locked="0" code="" scaleX="8" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_block" x="192" y="320" name="inst_6E183438" locked="0" code="" scaleX="8" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_block" x="320" y="272" name="inst_094A77D2" locked="0" code="" scaleX="8" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_levelexit" x="288" y="194" name="inst_EBB6202E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_levelexit" x="304" y="209" name="inst_EBB6202E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_block" x="272" y="224" name="inst_DF90FD14" locked="0" code="" scaleX="4" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_block" x="192" y="416" name="inst_9AB0A219" locked="0" code="" scaleX="8" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_blockv" x="320" y="272" name="inst_4174C81C" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>

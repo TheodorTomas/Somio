@@ -72,7 +72,7 @@ keyboard_set_map(ord("F"),"");</code>
     <instance objName="obj_spike" x="304" y="400" name="inst_91B8F471" locked="0" code="image_speed = 0.7;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_spike" x="400" y="400" name="inst_94190B0C" locked="0" code="image_speed = 0.7;&#xA;" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_spike" x="208" y="400" name="inst_A0BC2295" locked="0" code="image_speed = 0.7;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_levelexit" x="320" y="435" name="inst_0AF5EFE3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_levelexit" x="336" y="449" name="inst_0AF5EFE3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="back_tiles" x="144" y="80" w="16" h="16" xo="68" yo="0" id="10000301" name="inst_587D0948" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
