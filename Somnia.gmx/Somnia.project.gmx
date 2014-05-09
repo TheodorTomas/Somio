@@ -11,6 +11,7 @@
     <sound>sound\snd_finishlevel</sound>
     <sound>sound\snd_menu</sound>
     <sound>sound\snd_levelLoop</sound>
+    <sound>sound\snd_levelLoop2</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_block</sprite>
@@ -18,8 +19,8 @@
     <sprite>sprites\spr_death</sprite>
     <sprite>sprites\spr_blockv</sprite>
     <sprite>sprites\spr_spiketrap</sprite>
+    <sprite>sprites\spr_spikeReverse</sprite>
     <sprite>sprites\spr_door</sprite>
-    <sprite>sprites\spr_title</sprite>
     <sprite>sprites\spr_play</sprite>
     <sprite>sprites\spr_chainball</sprite>
     <sprites name="character">
@@ -28,8 +29,8 @@
       <sprite>sprites\spr_leftstop</sprite>
       <sprite>sprites\spr_rightstop</sprite>
       <sprite>sprites\spr_jumpright</sprite>
-      <sprite>sprites\spr_jumpleft</sprite>
     </sprites>
+    <sprite>sprites\spr_powerup</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\back_sky</background>
@@ -49,18 +50,18 @@
     <objects name="Traps">
       <object>objects\obj_parenttrap</object>
       <object>objects\obj_spike</object>
+      <object>objects\obj_spikeReverse</object>
       <object>objects\obj_ballchain</object>
     </objects>
     <object>objects\obj_intro</object>
     <object>objects\obj_blockh</object>
     <object>objects\obj_blockv</object>
+    <object>objects\obj_powerUp</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_intro</room>
-    <room>rooms\rm_walktut</room>
-    <room>rooms\rm_flashtut</room>
-    <room>rooms\rm_slowtut</room>
-    <room>rooms\rm_gravitytut</room>
+    <room>rooms\rm_gravPermaReverse</room>
+    <room>rooms\rm_gravityHard</room>
+    <room>rooms\rm_slowHard</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

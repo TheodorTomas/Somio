@@ -55,7 +55,7 @@
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="obj_ballchain">
+    <event eventtype="4" ename="obj_spikeReverse">
       <action>
         <libid>1</libid>
         <id>211</id>
@@ -115,7 +115,7 @@
         <isnot>0</isnot>
       </action>
     </event>
-    <event eventtype="4" ename="obj_spikeReverse">
+    <event eventtype="4" ename="obj_ballchain">
       <action>
         <libid>1</libid>
         <id>211</id>
