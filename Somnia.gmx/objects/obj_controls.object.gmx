@@ -195,7 +195,7 @@ else
           </argument>
           <argument>
             <kind>0</kind>
-            <string>-0.5</string>
+            <string>-0.1</string>
           </argument>
         </arguments>
       </action>

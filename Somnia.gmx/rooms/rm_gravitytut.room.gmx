@@ -67,7 +67,7 @@ keyboard_set_map(ord("F"),"");</code>
     <instance objName="obj_block" x="16" y="0" name="inst_F99DE1A8" locked="0" code="" scaleX="38" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_mindpower" x="16" y="16" name="inst_BBC46A1B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_block" x="270" y="224" name="inst_DF90FD14" locked="0" code="" scaleX="4" scaleY="0.9375" colour="4294967295" rotation="0"/>
-    <instance objName="obj_levelexit" x="304" y="255" name="inst_7D7895D3" locked="0" code="" scaleX="1" scaleY="-1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_levelexit" x="300" y="254" name="inst_7D7895D3" locked="0" code="" scaleX="1" scaleY="-1" colour="4294967295" rotation="0"/>
     <instance objName="obj_blockv" x="261" y="224" name="inst_F6C26580" locked="0" code="" scaleX="1.14285719394684" scaleY="0.9375" colour="4294967295" rotation="0"/>
     <instance objName="obj_blockv" x="334" y="224" name="inst_F1527222" locked="0" code="" scaleX="0.875" scaleY="0.939999997615814" colour="4294967295" rotation="0"/>
   </instances>
