@@ -58,10 +58,10 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_intro</room>
+    <room>rooms\rm_gravityHard</room>
     <room>rooms\rm_walktut</room>
     <room>rooms\rm_flashtut</room>
     <room>rooms\rm_slowtut</room>
-    <room>rooms\rm_gravitytut</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
