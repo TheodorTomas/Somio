@@ -16,7 +16,6 @@ gravity_check = 1;
 keyboard_unset_map();</code>
   <enableViews>-1</enableViews>
   <clearViewBackground>-1</clearViewBackground>
-  <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>0</isSet>
     <w>0</w>
@@ -133,6 +132,7 @@ keyboard_unset_map();</code>
     <instance objName="obj_block" x="624" y="112" name="inst_01B169DE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_block" x="624" y="128" name="inst_BEC43524" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_block" x="624" y="144" name="inst_AB356025" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_deathsplatter" x="32" y="16" name="inst_B244B685" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="back_tiles" x="0" y="400" w="16" h="16" xo="0" yo="0" id="10001069" name="inst_33DDC50E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
