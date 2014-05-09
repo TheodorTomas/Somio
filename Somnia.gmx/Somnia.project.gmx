@@ -38,6 +38,9 @@
       <sprite>sprites\spr_blood4</sprite>
       <sprite>sprites\spr_bloodani1</sprite>
     </sprites>
+    <sprites name="new sprites go here">
+      <sprite>sprites\can_be_deleted</sprite>
+    </sprites>
     <sprite>sprites\spr_powerup</sprite>
   </sprites>
   <backgrounds name="background">
