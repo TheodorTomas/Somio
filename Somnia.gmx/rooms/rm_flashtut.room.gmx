@@ -19,7 +19,6 @@ keyboard_clear(ord("D"));
 keyboard_set_map(ord("D"),"");</code>
   <enableViews>-1</enableViews>
   <clearViewBackground>-1</clearViewBackground>
-  <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>0</isSet>
     <w>0</w>
@@ -71,6 +70,7 @@ keyboard_set_map(ord("D"),"");</code>
     <instance objName="obj_block" x="416" y="416" name="inst_7BEDD45B" locked="0" code="" scaleX="1" scaleY="3" colour="4294967295" rotation="0"/>
     <instance objName="obj_blockv" x="208" y="400" name="inst_0DE74186" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_blockv" x="432" y="400" name="inst_3EFA344E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_deathsplatter" x="32" y="16" name="inst_F605E195" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="back_tiles" x="144" y="80" w="16" h="16" xo="68" yo="0" id="10000301" name="inst_587D0948" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
