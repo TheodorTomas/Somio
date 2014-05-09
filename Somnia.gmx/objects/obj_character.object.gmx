@@ -275,7 +275,15 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>show_message("Well done you finished the tutorial");
+            <string>if room = rm_gravitytut
+{
+    show_message("Well done you finished the tutorial");
+}
+else
+{
+    show_message("Well done you finished the harder levels");
+}
+hp = 0;
 game_end();
 </string>
           </argument>
