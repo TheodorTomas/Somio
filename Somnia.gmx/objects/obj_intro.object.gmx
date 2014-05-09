@@ -86,10 +86,9 @@ var i;
 
 for (i=0; i&lt;=10000; i+=1)
     deathx[i]=0;
-for (i=0; i&lt;=10000; i+=1)
     deathy[i]=0;
-for (i=0; i&lt;=10000; i+=1)
-    deathtype[i]=round(random(3));
+    deathtype[i]=0;
+
 </string>
           </argument>
         </arguments>

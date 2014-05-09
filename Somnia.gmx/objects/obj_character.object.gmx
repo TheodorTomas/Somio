@@ -139,6 +139,7 @@
             <string>if(deathcount &lt; 10000)
     deathx[deathcount] = x;
     deathy[deathcount] = y;
+    deathtype[deathcount] = round(random(3));
     deathcount +=1;
 
 
