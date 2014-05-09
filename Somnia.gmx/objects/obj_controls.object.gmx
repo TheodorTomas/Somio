@@ -326,7 +326,7 @@ else
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>sprite_index == 9</string>
+            <string>sprite_index == 10</string>
           </argument>
         </arguments>
       </action>
@@ -402,7 +402,7 @@ else
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>+4</string>
+            <string>+3.2</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -568,7 +568,7 @@ else
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>sprite_index == 10</string>
+            <string>sprite_index == 11</string>
           </argument>
         </arguments>
       </action>
@@ -644,7 +644,7 @@ else
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>-4</string>
+            <string>-3.2</string>
           </argument>
           <argument>
             <kind>0</kind>
