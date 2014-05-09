@@ -28,7 +28,8 @@
       <sprite>sprites\spr_left</sprite>
       <sprite>sprites\spr_leftstop</sprite>
       <sprite>sprites\spr_rightstop</sprite>
-      <sprite>sprites\spr_jumpright</sprite>
+      <sprite>sprites\spr_jumpupright</sprite>
+      <sprite>sprites\spr_jumddownright</sprite>
     </sprites>
     <sprite>sprites\spr_powerup</sprite>
   </sprites>
