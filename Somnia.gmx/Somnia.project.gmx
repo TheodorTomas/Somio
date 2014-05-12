@@ -81,13 +81,16 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_intro</room>
-    <room>rooms\rm_gravityHard</room>
     <room>rooms\rm_walktut</room>
     <room>rooms\rm_gravitytut</room>
     <room>rooms\rm_flashtut</room>
     <room>rooms\rm_slowtut</room>
+    <room>rooms\rm_1_1</room>
+    <room>rooms\rm_1_2</room>
     <room>rooms\rm_slowHard</room>
+    <room>rooms\rm_gravityHard</room>
     <room>rooms\rm_gravPermaReverse</room>
+    <room>rooms\rm_3_1</room>
     <room>rooms\rm_Grav_Flash</room>
   </rooms>
   <help>

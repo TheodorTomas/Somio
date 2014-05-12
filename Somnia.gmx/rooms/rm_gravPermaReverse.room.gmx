@@ -13,13 +13,7 @@
   <code>globalvar gravity_check;
 hp = 100;
 gravity_check = 0;
-keyboard_unset_map();
-keyboard_clear(ord("D"));
-keyboard_set_map(ord("D"),"");
-if !audio_music_is_playing()
-{
-   audio_play_music(snd_levelLoop2, true);
-}</code>
+keyboard_unset_map();</code>
   <enableViews>-1</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <makerSettings>
@@ -710,6 +704,9 @@ if !audio_music_is_playing()
     <instance objName="obj_blockv" x="1104" y="80" name="inst_5228D812" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_blockv" x="1216" y="80" name="inst_CC9FE5FB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_deathsplatter" x="0" y="67" name="inst_0E64CB95" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ballchain" x="98" y="177" name="inst_C78668E2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ballchain" x="306" y="174" name="inst_6BBDEEB8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ballchain" x="515" y="174" name="inst_81E33931" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="back_tiles" x="2" y="33" w="19" h="17" xo="19" yo="62" id="10001959" name="inst_68B5F258" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -1430,6 +1427,9 @@ if !audio_music_is_playing()
     <tile bgName="back_tiles" x="1357" y="155" w="16" h="16" xo="102" yo="0" id="10002930" name="inst_180D5C3A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="back_tiles" x="1645" y="156" w="16" h="16" xo="102" yo="0" id="10002931" name="inst_3A4A1F45" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="back_tiles" x="1981" y="155" w="16" h="16" xo="102" yo="0" id="10002932" name="inst_3F4072B7" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="back_intro" x="202" y="287" w="21" h="15" xo="13" yo="117" id="10003316" name="inst_872224A6" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="back_intro" x="410" y="284" w="21" h="15" xo="13" yo="117" id="10003317" name="inst_ED5523DC" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="back_intro" x="618" y="283" w="21" h="15" xo="13" yo="117" id="10003318" name="inst_3A74FBDB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>
