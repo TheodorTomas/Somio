@@ -25,11 +25,11 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>var x1=view_xview[0]+16;
-var y1=view_yview[0]+5;
-var x2=view_xview[0]+30;
-var y2=view_yview[0]+100;
-draw_healthbar(x1,y1,x2,y2,hp,c_black,c_red,c_green,3,0,1);
+            <string>var x1=view_xview[0]+1;
+var y1=view_yview[0]+1;
+var x2=view_xview[0]+100;
+var y2=view_yview[0]+15;
+draw_healthbar(x1,y1,x2,y2,hp,c_black,c_red,c_green,0,0,1);
 </string>
           </argument>
         </arguments>
@@ -52,11 +52,11 @@ draw_healthbar(x1,y1,x2,y2,hp,c_black,c_red,c_green,3,0,1);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>var x1=view_xview[0]+16;
-var y1=view_yview[0]+5;
-var x2=view_xview[0]+30;
-var y2=view_yview[0]+100;
-draw_healthbar(x1,y1,x2,y2,hp,c_black,c_red,c_green,3,0,1);
+            <string>var x1=view_xview[0]+1;
+var y1=view_yview[0]+1;
+var x2=view_xview[0]+100;
+var y2=view_yview[0]+15;
+draw_healthbar(x1,y1,x2,y2,hp,c_black,c_red,c_green,0,0,1);
 </string>
           </argument>
         </arguments>

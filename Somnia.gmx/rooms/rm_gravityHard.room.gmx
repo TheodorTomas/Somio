@@ -534,7 +534,7 @@ keyboard_unset_map();</code>
     <instance objName="obj_block" x="48" y="320" name="inst_1AFD8A90" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_block" x="32" y="320" name="inst_4B9E35CB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_block" x="16" y="320" name="inst_96E0E46B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_character" x="16" y="288" name="inst_C8DA3D77" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_character" x="16" y="288" name="inst_C8DA3D77" locked="0" code="sprite_index = 9;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_death" x="96" y="344" name="inst_F45798CC" locked="0" code="" scaleX="71" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_death" x="80" y="352" name="inst_7127D5E4" locked="0" code="" scaleX="1" scaleY="-1" colour="4294967295" rotation="0"/>
     <instance objName="obj_block" x="1232" y="336" name="inst_72A61BE0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
