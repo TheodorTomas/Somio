@@ -123,6 +123,7 @@ keyboard_set_map(ord("D"),"");</code>
     <instance objName="obj_block" x="688" y="336" name="inst_67CC7095" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_block" x="672" y="336" name="inst_E1BB9466" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_block" x="656" y="336" name="inst_57EF77B4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_straightarrow" x="232" y="434" name="inst_5EDBD811" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="back_tiles" x="144" y="80" w="16" h="16" xo="68" yo="0" id="10000301" name="inst_587D0948" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

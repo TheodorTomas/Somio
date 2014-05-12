@@ -90,6 +90,9 @@ if !audio_is_playing(snd_levelLoop)
     <instance objName="obj_blockv" x="272" y="224" name="inst_F8CF0F22" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_blockv" x="336" y="224" name="inst_0D42AABA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_deathsplatter" x="0" y="16" name="inst_0D47DF6C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_straightarrow" x="248" y="161" name="inst_5CD5A674" locked="0" code="" scaleX="0.959999978542328" scaleY="1" colour="4294967295" rotation="-25"/>
+    <instance objName="obj_straightarrow" x="317" y="141" name="inst_55513762" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-91"/>
+    <instance objName="obj_straightarrow" x="376" y="177" name="inst_A2093EBE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-147"/>
   </instances>
   <tiles>
     <tile bgName="back_tiles" x="144" y="80" w="16" h="16" xo="68" yo="0" id="10000301" name="inst_587D0948" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

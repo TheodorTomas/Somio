@@ -70,6 +70,7 @@ keyboard_set_map(ord("F"),"");</code>
     <instance objName="obj_blockv" x="261" y="224" name="inst_F6C26580" locked="0" code="" scaleX="1.14285719394684" scaleY="0.9375" colour="4294967295" rotation="0"/>
     <instance objName="obj_blockv" x="334" y="224" name="inst_F1527222" locked="0" code="" scaleX="0.875" scaleY="0.939999997615814" colour="4294967295" rotation="0"/>
     <instance objName="obj_deathsplatter" x="1" y="16" name="inst_449D7F9E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_straightarrow" x="287" y="330" name="inst_BCF5DA44" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="89"/>
   </instances>
   <tiles>
     <tile bgName="back_tiles" x="144" y="80" w="16" h="16" xo="68" yo="0" id="10000301" name="inst_587D0948" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

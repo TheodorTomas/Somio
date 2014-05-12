@@ -873,6 +873,8 @@ keyboard_unset_map();</code>
     <instance objName="obj_block" x="592" y="384" name="inst_D421915C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_levelexit" x="607" y="449" name="inst_AF556F49" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_deathsplatter" x="1" y="29" name="inst_213BB038" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_straightarrow" x="152" y="73" name="inst_7700731F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-47"/>
+    <instance objName="obj_straightarrow" x="391" y="289" name="inst_8C393038" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="back_tiles" x="384" y="64" w="16" h="16" xo="34" yo="0" id="10000306" name="inst_4AF57725" depth="1000002" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
