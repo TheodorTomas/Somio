@@ -177,6 +177,27 @@ else
       </action>
       <action>
         <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>audio_sound_pitch(level_music, 0.7);
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
         <id>611</id>
         <kind>6</kind>
         <userelative>-1</userelative>
@@ -271,7 +292,8 @@ else
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>with(obj_parenttrap)
+            <string>audio_sound_pitch(level_music, 1.0);
+with(obj_parenttrap)
 {
     image_speed = 1;
 }
@@ -954,6 +976,7 @@ else
             <kind>1</kind>
             <string>if hp &gt; 1
 {
+    audio_sound_pitch(level_music, 0.7);
     with(obj_parenttrap)
     {
         image_speed = 0.1;
@@ -1488,7 +1511,8 @@ else
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>with(obj_parenttrap)
+            <string>audio_sound_pitch(level_music, 1.0);
+with(obj_parenttrap)
 {
     image_speed = 1;
 }

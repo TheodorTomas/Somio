@@ -21,9 +21,10 @@ keyboard_set_map(ord("D"),"");
 keyboard_clear(ord("F"));
 keyboard_set_map(ord("F"),"");
 audio_stop_sound(snd_menu);
-if !audio_music_is_playing()
+globalvar level_music; 
+if !audio_is_playing(snd_levelLoop)
    {
-   audio_play_music(snd_levelLoop, true);
+        level_music = audio_play_sound(snd_levelLoop, 10, true);
    }</code>
   <enableViews>-1</enableViews>
   <clearViewBackground>-1</clearViewBackground>
