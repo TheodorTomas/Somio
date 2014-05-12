@@ -137,11 +137,13 @@
           <argument>
             <kind>1</kind>
             <string>if(deathcount &lt; 10000)
+{
     deathx[deathcount] = x;
     deathy[deathcount] = y;
     deathtype[deathcount] = round(random(3));
     deathcount +=1;
-
+    audio_sound_pitch(level_music, 1.0);
+}
 
 </string>
           </argument>
@@ -325,6 +327,7 @@
             <kind>1</kind>
             <string>deathcount = 0;
 drawer = 0;
+audio_sound_pitch(level_music, 1.0);
 </string>
           </argument>
         </arguments>
@@ -542,6 +545,27 @@ game_end();
       </action>
       <action>
         <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>deathcount +=1;
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
         <id>223</id>
         <kind>0</kind>
         <userelative>0</userelative>
@@ -631,6 +655,27 @@ game_end();
           <argument>
             <kind>3</kind>
             <string>0</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>deathcount +=1;
+</string>
           </argument>
         </arguments>
       </action>
