@@ -1015,7 +1015,9 @@ drawer = 0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if sprite_index == 9 or sprite_index == 12
+            <string>/*teleport controller*/
+
+if sprite_index == 9 or sprite_index == 12
 {
     hp -= 30;
     if place_meeting(x+100, y, obj_block)

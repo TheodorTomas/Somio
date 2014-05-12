@@ -77,8 +77,7 @@ globalvar drawer;
 drawer = 1;
 deathcount = 0;
 deathx[0]=0;
-deathy[0]=0;
-deathtype[0]=0;
+deathy[0]=0;deathtype[0]=0;
 
 
 
