@@ -42,9 +42,10 @@
     </sprites>
     <sprites name="new sprites go here">
       <sprite>sprites\can_be_deleted</sprite>
-      <sprite>sprites\spr_saw</sprite>
+      <sprite>sprites\spr_sawani</sprite>
       <sprite>sprites\spr_straightarrow</sprite>
       <sprite>sprites\spr_curvedarrow</sprite>
+      <sprite>sprites\spr_halfsaw</sprite>
     </sprites>
     <sprite>sprites\spr_powerup</sprite>
   </sprites>
@@ -68,6 +69,8 @@
       <object>objects\obj_spike</object>
       <object>objects\obj_spikeReverse</object>
       <object>objects\obj_ballchain</object>
+      <object>objects\obj_saw</object>
+      <object>objects\obj_halfsaw</object>
     </objects>
     <object>objects\obj_intro</object>
     <object>objects\obj_blockh</object>
@@ -86,6 +89,7 @@
     <room>rooms\rm_gravitytut</room>
     <room>rooms\rm_flashtut</room>
     <room>rooms\rm_slowtut</room>
+    <room>rooms\rm_doomroom</room>
     <room>rooms\rm_slowHard</room>
     <room>rooms\rm_gravPermaReverse</room>
     <room>rooms\rm_Grav_Flash</room>

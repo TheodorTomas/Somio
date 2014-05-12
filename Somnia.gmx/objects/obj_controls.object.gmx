@@ -895,8 +895,7 @@ else
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>deathcount = 0;
-drawer = 0;
+            <string>drawer = 0;
 </string>
           </argument>
         </arguments>
@@ -1378,7 +1377,7 @@ else
             <kind>1</kind>
             <string>with(obj_parenttrap)
 {
-    image_speed = 1;
+    image_speed = 0.5;
 }
 
 </string>
