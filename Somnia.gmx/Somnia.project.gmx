@@ -6,12 +6,14 @@
   <NewExtensions/>
   <sounds name="sound">
     <sound>sound\snd_killmonser</sound>
-    <sound>sound\snd_killcharacter</sound>
     <sound>sound\snd_getmushroom</sound>
     <sound>sound\snd_finishlevel</sound>
     <sound>sound\snd_menu</sound>
     <sound>sound\snd_levelLoop</sound>
     <sound>sound\snd_levelLoop2</sound>
+    <sounds name="character death">
+      <sound>sound\snd_killcharacter</sound>
+    </sounds>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_block</sprite>
@@ -40,6 +42,9 @@
     </sprites>
     <sprites name="new sprites go here">
       <sprite>sprites\can_be_deleted</sprite>
+      <sprite>sprites\spr_saw</sprite>
+      <sprite>sprites\spr_straightarrow</sprite>
+      <sprite>sprites\spr_curvedarrow</sprite>
     </sprites>
     <sprite>sprites\spr_powerup</sprite>
   </sprites>
@@ -69,6 +74,10 @@
     <object>objects\obj_blockv</object>
     <object>objects\obj_deathsplatter</object>
     <object>objects\obj_powerUp</object>
+    <objects name="obj_arrows">
+      <object>objects\obj_curvedarrow</object>
+      <object>objects\obj_straightarrow</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_intro</room>

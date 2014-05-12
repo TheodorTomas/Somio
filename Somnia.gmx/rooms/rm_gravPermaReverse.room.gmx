@@ -709,6 +709,7 @@ if !audio_music_is_playing()
     <instance objName="obj_blockv" x="960" y="160" name="inst_2671782F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_blockv" x="1104" y="80" name="inst_5228D812" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_blockv" x="1216" y="80" name="inst_CC9FE5FB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_deathsplatter" x="0" y="67" name="inst_0E64CB95" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="back_tiles" x="2" y="33" w="19" h="17" xo="19" yo="62" id="10001959" name="inst_68B5F258" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
